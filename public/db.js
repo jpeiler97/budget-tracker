@@ -21,6 +21,8 @@ request.onerror = function(event) {
 	console.log(event);
 };
 
+console.log('I am db.js');
+
 function saveRecord(record) {
 	const transaction = db.transaction([ 'budgetStore' ], 'readwrite');
 	const budgetStore = transaction.objectStore('budgetStore');
@@ -28,6 +30,7 @@ function saveRecord(record) {
 }
 
 function checkDatabase() {
+	console.log('I am online');
 	const transaction = db.transaction([ 'budgetStore' ], 'readwrite');
 	const budgetStore = transaction.objectStore('budgetStore');
 	const getAll = budgetStore.getAll();
