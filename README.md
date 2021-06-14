@@ -20,7 +20,7 @@ This is a PWA that allows users to manage a budget by adding expenses, whether o
 Deployed application: https://immense-beach-10968.herokuapp.com/
 
 Screenshot:
-![Budget Tracker(public/images/screenshot.png?raw=true "Budget Tracker")
+![Budget Tracker](public/images/screenshot.png?raw=true "Budget Tracker")
 
 <a name="license"></a>
 ## License
